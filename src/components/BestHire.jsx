@@ -167,7 +167,7 @@ function BestHire() {
             title: "Action",
             key: "action",
             fixed: "right",
-            width: 50,
+            width: 60,
             render: (_, record) => (
                 <Button
                     type="link"
@@ -233,7 +233,7 @@ function BestHire() {
     const displayedCandidates = showOnlyTop
         ? filteredCandidates.slice(0, 5)
         : filteredCandidates;
-        
+
     return (
         <div
             style={{
